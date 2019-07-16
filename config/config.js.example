@@ -1,0 +1,12 @@
+module.exports.options = {
+    token: '',
+    topicChannels: [
+      'general'
+    ],
+    roles: ["Admin"],
+    servers: [
+        { name: 'Server1', url: 'http://37.59.251.207:30120', alias: 'Western RP' },
+        { name: 'Server2', url: 'http://127.0.0.1:30121', alias: 'Western RP' }
+    ],
+    pollRate: 30,
+};
