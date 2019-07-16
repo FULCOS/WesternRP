@@ -1,12 +1,13 @@
 module.exports.options = {
-    token: '',
+    token: 'NTYwNTgyNDUwMDQ1MTI0NjA4.XS0Z3Q.nINe4K_rO9LznHsMFGTObZp7Wik',
     topicChannels: [
-      'general'
+      '<#600484913007034388>'
     ],
-    roles: ["Admin"],
+    roles: ["Staff"],
     servers: [
         { name: 'Server1', url: 'http://37.59.251.207:30120', alias: 'Western RP' },
         { name: 'Server2', url: 'http://127.0.0.1:30121', alias: 'Western RP' }
     ],
     pollRate: 30,
 };
+
