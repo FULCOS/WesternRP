@@ -27,7 +27,7 @@ const getPlayers = async server => {
  * Connect to Discord
  */
 client.on('ready', () => {
-  console.log(`Logged in as ${client.user.tag}!\nIf this is your first time connecting, use https://discordapp.com/api/oauth2/authorize?client_id=560582450045124608&permissions=67176464&scope=bot to authorize your bot for your server.`);
+  console.log(`Logged in as ${client.user.tag}!\nIf this is your first time connecting, use https://discordapp.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=67176464&scope=bot to authorize your bot for your server.`);
 });
 
 /**
